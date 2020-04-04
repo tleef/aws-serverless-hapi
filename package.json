@@ -1,0 +1,24 @@
+{
+  "name": "@tleef/aws-serverless-hapi",
+  "version": "1.0.0",
+  "description": "Run serverless applications and REST APIs using your existing Hapi framework, on top of AWS Lambda and Amazon API Gateway",
+  "main": "lib/index.js",
+  "author": "Tom Lee <tom@tleef.com>",
+  "license": "MIT",
+  "repository": "git@github.com:tleef/aws-serverless-hapi.git",
+  "bugs": {
+    "url": "https://github.com/tleef/aws-serverless-hapi/issues"
+  },
+  "homepage": "https://github.com/tleef/aws-serverless-hapi#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.47",
+    "@types/hapi__hapi": "^19.0.2",
+    "prettier": "^2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier \"**/*.{ts,tsx}\" --write",
+    "prepare": "yarn build"
+  }
+}
