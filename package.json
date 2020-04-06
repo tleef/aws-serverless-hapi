@@ -1,6 +1,6 @@
 {
   "name": "@tleef/aws-serverless-hapi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Run serverless applications and REST APIs using your existing Hapi framework, on top of AWS Lambda and Amazon API Gateway",
   "main": "lib/index.js",
   "author": "Tom Lee <tom@tleef.com>",
